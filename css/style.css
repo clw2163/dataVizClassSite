@@ -37,6 +37,17 @@ h3 {
 	padding-right: 350px;
 }
 
+h4 {
+	color: black;
+	font-family: "Helvetica Neue", arial , sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 200;
+	text-align: left;
+	letter-spacing: 5px;
+	padding-right: 0px;
+}
+
 img {
 	float: left;
 }
