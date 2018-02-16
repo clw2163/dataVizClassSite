@@ -48,6 +48,18 @@ h4 {
 	padding-right: 0px;
 }
 
+h5 {
+	color: black;
+	font-family: "Helvetica Neue", arial , sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 200;
+	text-align: left;
+	letter-spacing: 5px;
+	word-spacing: 10px;
+	padding-left: 10px;
+}
+
 img {
 	float: left;
 }
@@ -62,6 +74,26 @@ p {
 	letter-spacing: 2px;
 	padding-left: 835px;
 	padding-right: 50px;
+}
+
+.list {
+	color: black;
+	font-family: "Helvetica Neue", arial , sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 200;
+}
+
+
+.explanation {
+	color: black;
+	font-family: "Helvetica Neue", arial , sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 200;
+	text-align: left;
+	letter-spacing: 20px;
+	word-spacing: 10px;
 }
 
 ul {
