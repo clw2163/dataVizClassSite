@@ -60,6 +60,18 @@ h5 {
 	padding-left: 10px;
 }
 
+h6 { 
+	color: black;
+	font-family: "Helvetica Neue", arial , sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 200;
+	text-align: left;
+	letter-spacing: 2px;
+	padding-right: 800px;
+}
+
+
 img {
 	float: left;
 }
