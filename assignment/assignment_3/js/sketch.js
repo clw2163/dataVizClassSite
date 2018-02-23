@@ -8,20 +8,17 @@ var startBlock = 11;
 var endBlock = 1069;
 var startArea = 8; 
 var endArea = 924750; 
-//var lengthMultiplier = 10; 
-
-	//setting up bounds/ranges for variables
 
 function preload() { 
-	vacantLots = loadTable('../data/vacantlotsdata.csv', 'csv', 'header');
+	vacantLots = loadTable('data/vacantlotsdata.csv', 'csv', 'header');
 	console.log('Table has been loaded...');
 }
 
 function setup(){
 	createCanvas(1000, 1000);
 	textFont('Helvetica');
-	print(vacantLots.getColumnCount());
-	print(vacantLots.getRowCount());
+	print(vacantLots.getColumnCount()+'column count');
+	print(vacantLots.getRowCount()+ 'row loaded');
 	noLoop(); //draw background once; recommended for static graphs//
 }
 
