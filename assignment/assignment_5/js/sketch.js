@@ -98,7 +98,7 @@ function draw(){
     image(img8, 0, 0);
     image(img8, 110, height/2.25, img8.width/10, img8.height/10);
   }
-  else if (description == 'mist'){
+  else if (description == 'Mist'){
     image(img8, 0, 0);
     image(img8, 110, height/2.25, img8.width/10, img8.height/10);
   }
