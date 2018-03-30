@@ -103,8 +103,8 @@ function draw(){
     image(img8, 110, height/2.25, img8.width/10, img8.height/10);
   }
   else {
-    image(img9, 0, 0);
-    image(img9, 110, height/2.25, img9.width/10, img9.height/10);
+    image(img4, 0, 0);
+    image(img4, 110, height/2.25, img4.width/10, img4.height/10);
   }
   if (weatherData){
     fill(0);
