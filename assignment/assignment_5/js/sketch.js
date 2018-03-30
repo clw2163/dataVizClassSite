@@ -66,6 +66,10 @@ function draw(){
     image(img3, 0, 0);
     image(img3, 110, height/2.25, img3.width/10, img3.height/10);
   }
+  else if (description == 'clouds'){
+    image(img3, 0, 0);
+    image(img3, 110, height/2.25, img3.width/10, img3.height/10);
+  }
   else if (icon == '04d'){
     image(img4, 0, 0);
     image(img4, 110, height/2.25, img4.width/10, img4.height/10);
@@ -78,6 +82,10 @@ function draw(){
     image(img5, 0, 0);
     image(img5, 110, height/2.25, img5.width/10, img5.height/10);
   }
+  else if (description == 'rain'){
+    image(img5, 0, 0);
+    image(img5, 110, height/2.25, img5.width/10, img5.height/10);
+  }
   else if (icon == '13d'){
     image(img6, 0, 0);
     image(img6, 110, height/2.25, img6.width/10, img6.height/10);
@@ -87,6 +95,10 @@ function draw(){
     image(img7, 110, height/2.25, img7.width/10, img7.height/10);
   }
   else if (icon == '50d'){
+    image(img8, 0, 0);
+    image(img8, 110, height/2.25, img8.width/10, img8.height/10);
+  }
+  else if (description == 'mist'){
     image(img8, 0, 0);
     image(img8, 110, height/2.25, img8.width/10, img8.height/10);
   }
