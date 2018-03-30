@@ -17,15 +17,15 @@ function setup(){
   button = select('#submit');
   cityInput = select('#city');
   button.mousePressed(queryAPI);
-  img = loadImage("../../../img/sun.jpg");  // Load the image
-  img2 = loadImage("../../../img/partlysun.jpg"); 
-  img3 = loadImage("../../../img/scatteredclouds.jpg"); 
-  img4 = loadImage("../../../img/brokenclouds.jpg"); 
-  img5 = loadImage("../../../img/rain.jpg"); 
-  img6 = loadImage("../../../img/snow.jpg"); 
-  img7 = loadImage("../../../img/thunder.jpg"); 
-  img8 = loadImage("../../../img/mist.jpg"); 
-  img9 = loadImage("../../../img/temperature.jpg"); 
+  img = loadImage("../../img/sun.jpg");  // Load the image
+  img2 = loadImage("../../img/partlysun.jpg"); 
+  img3 = loadImage("../../img/scatteredclouds.jpg"); 
+  img4 = loadImage("../../img/brokenclouds.jpg"); 
+  img5 = loadImage("../../img/rain.jpg"); 
+  img6 = loadImage("../../img/snow.jpg"); 
+  img7 = loadImage("../../img/thunder.jpg"); 
+  img8 = loadImage("../../img/mist.jpg"); 
+  img9 = loadImage("../../img/temperature.jpg"); 
   noLoop();
 }
 
