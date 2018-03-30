@@ -67,8 +67,8 @@ function draw(){
     image(img3, 110, height/2.25, img3.width/10, img3.height/10);
   }
   else if (description == 'clouds'){
-    image(img3, 0, 0);
-    image(img3, 110, height/2.25, img3.width/10, img3.height/10);
+    image(img4, 0, 0);
+    image(img4, 110, height/2.25, img4.width/10, img4.height/10);
   }
   else if (icon == '04d'){
     image(img4, 0, 0);
